@@ -1,0 +1,10 @@
+import tkinter as tk
+from tkinter import messagebox, filedialog
+from urllib.parse import urljoin, urlparse
+import requests
+from bs4 import BeautifulSoup
+
+class WebAnalyzerApp:
+    def __init__(self, root):
+        self.root = root
+       
